@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Smithing Stone Calculator",
   description: "Elden ring smithing stone calculator",
+  verification: {
+  google: "3WQo4kiE_DNLKWCsiKejeypo0C_UMfTRQvTFUrvDmCo",
+},
 };
 
 export default function RootLayout({ children }) {

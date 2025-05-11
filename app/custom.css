@@ -1,0 +1,27 @@
+/* .canvas{
+    background-image: url("/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+@media screen {
+    
+}
+.mainTable *{
+    color: #D9B46E;
+    border: 2px solid #D9B46E;
+    text-align: center;
+    padding-inline: 0.5rem;
+    /* @apply border-2 text-center px-2 */
+}
+
+@font-face {
+  font-family: 'EldenRing';
+  src: url('../public/Mantinia.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.elden-font{
+    font-family: 'EldenRing', sans-serif;
+}

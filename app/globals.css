@@ -1,0 +1,19 @@
+@import "tailwindcss";
+body{
+    color: white;
+}
+@theme {
+  /* Remove default breakpoints */
+  --breakpoint-sm: initial;
+  --breakpoint-md: initial;
+  --breakpoint-lg: initial;
+  --breakpoint-xl: initial;
+  --breakpoint-2xl: initial;
+
+  /* Define custom breakpoints */
+  --breakpoint-pc: 80rem;      /* 1280px */
+  --breakpoint-laptop: 64rem;  /* 1024px */
+  --breakpoint-tab: 48rem;     /* 768px */
+  --breakpoint-mobile: 30rem;  /* 480px */
+}
+

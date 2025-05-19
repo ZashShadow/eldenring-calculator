@@ -60,10 +60,10 @@ export default function Home() {
   };
 
   return (
-    <div className="canvas min-h-screen w-screen flex flex-col items-center bg-[url(/background.png)]  bg-center bg-cover ">
+    <div className="canvas min-h-screen w-screen flex flex-col items-center bg-[url(/background.webp)]  bg-center bg-cover ">
       <div className="main min-h-screen w-full bg-black/35 backdrop-blur-sm back flex flex-col items-center">
         <div className="logoContainer  flex flex-col items-center mt-10">
-          <img src="/logo.png" alt="logo" />
+          <img src="/logo.webp" alt="logo" />
           <h1 className="elden-font text-center text-4xl text-[#D9B46E]">Smithing Stone Calculator</h1>
         </div>
         <div className="calculator-section  flex flex-col items-center bg-black/65   ">
